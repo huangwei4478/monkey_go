@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d191cf-a042-48b9-aae9-40fbff4f1a16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.envrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/lexer/lexer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/lexer/lexer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/repl/repl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monkey/token/token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lexer/lexer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lexer/lexer_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/token/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monkey/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monkey/repl/repl.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/repl/repl.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

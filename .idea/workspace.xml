@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d191cf-a042-48b9-aae9-40fbff4f1a16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/monkey/ast/ast_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/monkey/ast/ast.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/ast/ast.go" afterDir="false" />
     </list>
@@ -57,7 +58,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestLetStatements in monkey/parser">
+  <component name="RunManager" selected="Go Test.go test monkey/ast">
     <configuration name="TestLetStatements in monkey/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="monkey_go" />
       <working_directory value="$PROJECT_DIR$/src/monkey/parser" />
@@ -80,8 +81,19 @@
       <pattern value="^\QTestNextToken\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test monkey/ast" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="monkey_go" />
+      <working_directory value="$PROJECT_DIR$/src/monkey/ast" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="monkey/ast" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test monkey/ast" />
         <item itemvalue="Go Test.TestLetStatements in monkey/parser" />
         <item itemvalue="Go Test.TestNextToken in monkey/lexer" />
       </list>

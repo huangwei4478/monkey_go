@@ -1,9 +1,12 @@
 package ast
 
-import "monkey/token"
+import (
+	"monkey/token"
+)
 
 type Node interface {
 	TokenLiteral() string
+	String() string
 }
 
 type Statement interface {
@@ -27,6 +30,7 @@ func (p *Program) TokenLiteral() string {
 		return ""
 	}
 }
+
 
 type LetStatement struct {
 	Token token.Token		// the token.LET token
@@ -52,3 +56,15 @@ type ReturnStatement struct {
 
 func (rs *ReturnStatement) statementNode() {}
 func (rs *ReturnStatement) TokenLiteral() string { return rs.Token.Literal }
+
+
+// x + 10; 这种 只有一个 expression 组成的 statement
+type ExpressionStatement struct {
+	Token token.Token				// the first token of the expression
+	Expression Expression
+}
+
+// fullfills the 'Statement' interface
+func (es *ExpressionStatement) statementNode() {}
+func (es *ExpressionStatement) TokenLiteral() string { return es.Token.Literal }
+

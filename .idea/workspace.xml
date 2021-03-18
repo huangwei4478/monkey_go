@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d191cf-a042-48b9-aae9-40fbff4f1a16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/monkey/ast/ast_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monkey/ast/ast.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/ast/ast.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monkey/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monkey/parser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/monkey/parser/parser_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
